@@ -32,7 +32,7 @@ public class RegistationFormTest {
                 .setSubject("Maths")
                 .setHobbies("Sports")
                 .setHobbies("Reading")
-                .setHobbies("Music").setPicture("test.jpg")
+                .setHobbies("Music").setPicture("img/test.jpg")
                 .setAddress(address)
                 .setLocation("Haryana", "Karnal")
                 .clickSubmit();
@@ -44,7 +44,7 @@ public class RegistationFormTest {
                 .checkResult("Date of Birth", "26 August,1998")
                 .checkResult("Subjects", "Maths")
                 .checkResult("Hobbies", "Sports, Reading, Music")
-                .checkResult("Picture", "test.jpg")
+                .checkResult("Picture", "img/test.jpg")
                 .checkResult("Address", address)
                 .checkResult("State and City", "Haryana Karnal");
     }
