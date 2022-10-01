@@ -44,7 +44,7 @@ public class RegistationFormTest {
                 .checkResult("Date of Birth", "26 August,1998")
                 .checkResult("Subjects", "Maths")
                 .checkResult("Hobbies", "Sports, Reading, Music")
-                .checkResult("Picture", "img/test.jpg")
+                .checkResult("Picture", "test.jpg")
                 .checkResult("Address", address)
                 .checkResult("State and City", "Haryana Karnal");
     }
